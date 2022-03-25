@@ -1,0 +1,65 @@
+{
+  "name": "Admin-Work-X-Template",
+  "version": "0.0.1",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "dev": "npm run serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@element-plus/icons": "0.0.11",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "element-plus": "^2.0.5",
+    "js-cookie": "^2.2.1",
+    "lodash": "^4.17.21",
+    "mockjs": "^1.1.0",
+    "normalize.css": "^8.0.1",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.0.9",
+    "screenfull": "^5.1.0",
+    "tiny-emitter": "^2.1.0",
+    "vue": "^3.2.25",
+    "vue-class-component": "^8.0.0-0",
+    "vue-router": "^4.0.0-0",
+    "vuedraggable": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^2.2.6",
+    "@types/lodash": "^4.14.177",
+    "@types/nprogress": "^0.2.0",
+    "@types/qrcode": "^1.4.0",
+    "@types/quill": "^2.0.8",
+    "@types/simplemde": "^1.11.7",
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-typescript": "^4.5.13",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "babel-eslint": "^10.1.0",
+    "compression-webpack-plugin": "^5.0.1",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.0.0",
+    "lint-staged": "^9.5.0",
+    "prettier": "^2.2.1",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "typescript": "^4.4.4"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,vue}": [
+      "git add"
+    ]
+  }
+}
